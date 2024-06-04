@@ -1,5 +1,6 @@
 <?php
 
+// Сервис для оформления заказов
 interface OrderService
 {
     public function createOrder(int $userId): Order;

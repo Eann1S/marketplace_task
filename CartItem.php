@@ -1,5 +1,6 @@
 <?php
 
+// Класс представляющий предметы корзины
 class CartItem
 {
     private $id;

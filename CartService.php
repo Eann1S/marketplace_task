@@ -1,5 +1,6 @@
 <?php
 
+// Сервис для взаимодействия с корзиной
 interface CartService
 {
     public function getCart(int $userId): array;
